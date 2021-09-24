@@ -11,7 +11,7 @@
     scroll-snap-type: y mandatory;
     scrollbar-width: none; // for firefox
     &::-webkit-scrollbar {
-      display: none; // for chorme edge safari
+      display: none; // for chrome - edge - safari
     }
 
     > * {
