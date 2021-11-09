@@ -10,7 +10,7 @@
   transition: all 1s ease;
 
   .wrapper {
-    padding: 0 30px;
+    padding: 0px 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -47,7 +47,7 @@
     .right {
       .hamburger {
         width: 32px;
-        height: 25px;
+        height: 26px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
