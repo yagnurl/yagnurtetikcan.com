@@ -17,14 +17,12 @@
 
     .left {
       display: flex;
-      align-items: center;
-
       .logo {
-        font-size: 40px;
-        font-weight: 700;
-        text-decoration: none;
-        color: inherit;
-        margin-right: 40px;
+        img {
+          width: 50%;
+          margin-top: 15px;
+          margin-left: 20%;
+        }
       }
 
       .item-container {
