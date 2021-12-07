@@ -11,10 +11,10 @@ export default function Menu({menuOpen, setMenuOpen}) {
                     <a href="#portfolio">Portfolio</a>
                 </li>
                 <li>
-                    <a href="#works">Works</a>
+                    <a href="#skills">Skills</a>
                 </li>
                 <li>
-                    <a href="#testimonials">Testimonials</a>
+                    <a href="#about">About Me</a>
                 </li>
                 <li>
                     <a href="#contact">Contact</a>

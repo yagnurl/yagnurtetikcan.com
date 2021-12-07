@@ -34,9 +34,22 @@
       justify-content: space-around;
 
       input {
-        width: 300px;
-        height: 30px;
-        font-size: 14px;
+        box-sizing: border-box;
+        width: 500px;
+        height: 50px;
+        font-size: 20px;
+        border-radius: 15px;
+        border: none;
+        background-color: rgba(160, 160, 160, 0.3);
+        padding: 15px;
+        font-weight: regular;
+        letter-spacing: 2px;
+        color: #faf3e0;
+        &:active,
+        &:focus {
+          border: none;
+          outline: none;
+        }
 
         @include mobile {
           width: 200px;
@@ -45,33 +58,61 @@
       }
 
       textarea {
-        width: 300px;
-        height: 200px;
-        font-size: 14px;
-
+        box-sizing: border-box;
+        width: 500px;
+        height: 300px;
+        font-size: 20px;
+        border-radius: 15px;
+        border: none;
+        background-color: rgba(160, 160, 160, 0.3);
+        padding: 15px;
+        font-weight: regular;
+        letter-spacing: 2px;
+        color: #faf3e0;
+        margin-top: 10px;
+        &:active,
+        &:focus {
+          border: none;
+          outline: none;
+        }
         @include mobile {
           width: 200px;
           height: 100px;
         }
       }
       button {
-        width: 150px;
-        height: 30px;
-        color: whitesmoke;
-        background-color: cadetblue;
-        border: none;
-        border-radius: 10px;
-        font-weight: 500;
-        cursor: pointer;
+        width: 200px;
+        height: 50px;
 
+        background-color: transparent;
+        border: 1px solid #faf3e0 !important;
+        color: #faf3e0;
+
+        border: none;
+        border-radius: 15px;
+
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 2px;
+
+        cursor: pointer;
+        padding: 5px;
+        transition: all 0.5s ease;
         &:focus {
           outline: none;
         }
+        &:hover {
+          background-color: #faf3e0;
+          color: $mainColor;
+        }
       }
+    }
+    span {
+      font-size: 20px;
 
-      span {
-        color: cadetblue;
-      }
+      color: #faf3e0;
+      margin-top: 15px;
+      letter-spacing: 2px;
     }
   }
 }
